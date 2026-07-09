@@ -1,0 +1,6 @@
+grpcio==1.82.1
+grpcio-tools==1.82.1
+grpcio-health-checking==1.82.1
+protobuf==7.35.1
+textract==2.0.0
+ebooklib==0.20
