@@ -3,8 +3,8 @@ from unittest.mock import patch
 
 # Assuming these are the functions and classes that would be imported from the chunker package
 # In a real scenario, these would be imported from the actual module
-from strategy import split
-from strategy import (
+from chunker.strategy import (
+    split,
     split_with_diagnostics, 
     STRATEGY_LEGACY, 
     STRATEGY_HEADING,
@@ -14,7 +14,7 @@ from strategy import (
     STRATEGY_AUTO,
     TIER_HEADING
 )
-from splitter import (
+from chunker.splitter import (
     SplitterConfig,
     default_config
 )

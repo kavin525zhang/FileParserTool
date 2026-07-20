@@ -1,15 +1,13 @@
 import unittest
-import re
-from typing import List, Dict, Any
-from splitter import (
+from typing import List
+from chunker.splitter import (
     Chunk, 
     SplitterConfig, 
     default_config,
     protected_spans,
     protected_spans_rune
 )
-from profiler import DocProfile
-from heuristic_splitter import (
+from chunker.heuristic_splitter import (
     split_by_heuristics_impl,
     find_heuristic_boundaries,
     drop_bounds_inside_spans

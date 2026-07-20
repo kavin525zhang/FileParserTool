@@ -1,7 +1,6 @@
 import unittest
-from typing import Tuple, Optional
 
-from heading_hierarchy import HeadingHierarchy
+from chunker.heading_hierarchy import HeadingHierarchy
 
 class TestHeadingHierarchy(unittest.TestCase):
 

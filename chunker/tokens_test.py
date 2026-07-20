@@ -1,5 +1,5 @@
 import unittest
-from tokens import (
+from chunker.tokens import (
     approx_token_count, 
     detect_language, 
     chars_for_token_limit, 

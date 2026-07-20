@@ -4,7 +4,7 @@ from typing import List, Tuple
 import re
 import unicodedata
 
-from header_tracker import HeaderTracker, header_column_mismatch
+from chunker.header_tracker import HeaderTracker, header_column_mismatch
 
 
 def normalize_text(s: str) -> str:

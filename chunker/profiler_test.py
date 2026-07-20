@@ -1,9 +1,5 @@
 import unittest
-import re
-from typing import List, Dict, Any
-from splitter import Chunk, SplitterConfig
-from profiler import (
-    DocProfile,
+from chunker.profiler import (
     select_strategy,
     profile_document
 )

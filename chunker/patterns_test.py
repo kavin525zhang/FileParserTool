@@ -1,7 +1,6 @@
 import unittest
 import re
-from typing import List, Dict, Any
-from patterns import (
+from chunker.patterns import (
     MarkdownHeadingPattern,
     NumberedSectionPattern,
     GermanChapterPattern,

@@ -1,7 +1,7 @@
 import math
 import re
 from typing import Dict, List, Optional
-from patterns import (
+from chunker.patterns import (
     MarkdownHeadingPattern,
     NumberedSectionPattern,
     GermanChapterPattern,
@@ -12,7 +12,7 @@ from patterns import (
     PageFooterPattern
 )
 
-from tokens import detect_language
+from chunker.tokens import detect_language
 
 class DocProfile:
     """Holds document-level signals used to choose a chunking strategy.

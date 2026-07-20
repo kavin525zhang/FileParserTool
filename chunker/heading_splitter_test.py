@@ -1,8 +1,6 @@
 import unittest
-import re
-from typing import List, Dict, Any
-from heading_splitter import split_by_headings_impl, common_heading_prefix
-from splitter import Chunk, SplitterConfig
+from chunker.heading_splitter import split_by_headings_impl, common_heading_prefix
+from chunker.splitter import SplitterConfig
 
 
 class TestSplitByHeadings(unittest.TestCase):

@@ -1,8 +1,7 @@
 import unittest
 import pytest
-from typing import List, Dict, Any
-from dataclasses import dataclass
-from splitter import (
+from typing import List
+from chunker.splitter import (
     extract_image_refs, 
     build_units_with_protection, 
     split_by_separators,

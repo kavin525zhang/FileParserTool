@@ -1,5 +1,5 @@
 import unittest
-from splitter import (
+from chunker.splitter import (
     Chunk, 
     SplitterConfig, 
     split_text, 
@@ -7,14 +7,14 @@ from splitter import (
     DEFAULT_CHUNK_SIZE,
     DEFAULT_CHUNK_OVERLAP
 )
-from strategy import (
+from chunker.strategy import (
     split_parent_child, 
     split, 
     merge_breadcrumbs, 
     ensure_defaults,
     STRATEGY_HEADING
 )
-from validator import validate_chunks
+from chunker.validator import validate_chunks
 
 class TestSplit(unittest.TestCase):
 

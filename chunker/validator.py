@@ -1,5 +1,5 @@
-from typing import List, Tuple
-from splitter import Chunk
+from typing import List
+from chunker.splitter import Chunk
 
 class ValidationResult:
     """Captures the verdict and reason for a chunk-set."""

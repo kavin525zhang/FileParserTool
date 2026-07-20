@@ -1,6 +1,5 @@
 import re
-import string
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List
 
 class HeaderTrackerHook:
     """Defines a pattern pair for detecting contextual headers.

@@ -1,9 +1,7 @@
 import re
-import string
-from typing import List, Dict, Any, Tuple, Optional
-from dataclasses import dataclass
+from typing import List, Dict, Any, Tuple
 
-from splitter import (
+from chunker.splitter import (
     Chunk, 
     SplitterConfig, 
     split_text,
@@ -11,7 +9,7 @@ from splitter import (
     protected_spans_rune
 )
 
-from profiler import DocProfile
+from chunker.profiler import DocProfile
 
 
 class boundary:

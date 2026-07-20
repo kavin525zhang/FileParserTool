@@ -1,7 +1,7 @@
 import unittest
-from splitter import SplitterConfig
-from strategy import ensure_defaults
-from tokens import LANG_ENGLISH, LANG_CHINESE
+from chunker.splitter import SplitterConfig
+from chunker.strategy import ensure_defaults
+from chunker.tokens import LANG_ENGLISH, LANG_CHINESE
 
 class TestEnsureDefaults(unittest.TestCase):
 

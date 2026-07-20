@@ -1,12 +1,10 @@
 import re
-import string
-from typing import List, Dict, Any, Tuple, Optional
-from dataclasses import dataclass
+from typing import List, Dict, Any, Tuple
 
-from heading_hierarchy import HeadingHierarchy
-from profiler import profile_document, DocProfile
-from splitter import Chunk, SplitterConfig, split_text
-from patterns import MarkdownHeadingPattern
+from chunker.heading_hierarchy import HeadingHierarchy
+from chunker.profiler import profile_document, DocProfile
+from chunker.splitter import Chunk, SplitterConfig, split_text
+from chunker.patterns import MarkdownHeadingPattern
 
 
 
